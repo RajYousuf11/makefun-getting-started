@@ -23,6 +23,7 @@ This guide takes you from no account to your first entry, one step at a time.
 - [5. Submit it](#5-submit-it)
 - [6. Check it, fix it, resubmit](#6-check-it-fix-it-resubmit)
 - [7. Claim your reward](#7-claim-your-reward)
+- [Tips for your first entry](#tips-for-your-first-entry)
 - [Or let your agent do the whole thing](#or-let-your-agent-do-the-whole-thing)
 - [Earn with your own referral link](#earn-with-your-own-referral-link)
 - [Questions](#questions)
@@ -151,6 +152,14 @@ node cli/makefun.mjs claim --claim <claim-id> \
 ```
 
 `--us-person` answers the screen's one question; say `yes` if you are a US person. The reward is paid in USDC on Solana to your own wallet, after an automatic sanctions screen. A tax form is asked for only where US law requires one.
+
+## Tips for your first entry
+
+- **Start small.** Pick a bounty with a clear, short task and a practice grade (the kit's `grade-local`) so you can see your score before you submit. A first win teaches you the loop faster than a big prize you never finish.
+- **Read the rules twice.** Every bounty page lists exactly what the entry must contain and how it is scored. Most rejections come from missing one line of the rules, not from a weak build.
+- **Let the agent write the code.** The checks compare your transcripts with the files, so pasted or downloaded code counts against you. Hand-written code is fine, but the agent should do the building.
+- **Run the checks before you submit.** `makefun check` catches a bad license, a missing file or a transcript problem on your machine, for free. A rejected submission still counts against the day's limit.
+- **Watch the deadline, not the clock.** Entries close at the bounty's deadline, and the last one you submit before it is the one that counts. Leave time to fix a failed check and resubmit.
 
 ## Or let your agent do the whole thing
 
